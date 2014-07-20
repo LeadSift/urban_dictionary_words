@@ -13,10 +13,9 @@ setup(
     packages=find_packages(exclude=['ez_setup', 'examples', 'tests']),
     include_package_data=True,
     install_requires=[
-        'beautifulsoup',
+        'scrapy',
+        'service_identity', # optional
     ],
     entry_points={
-        'console_scripts': [
-        ],
     },
 )
